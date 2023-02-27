@@ -1,9 +1,52 @@
 .root {
-    -fx-background-color: rgb(159, 221, 164);
+    -fx-background-color: #0081C9;
 }
 
-.button {
-    -fx-background-color: linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, rgb(51, 102, 51) 0.0, rgb(0, 0, 0) 100.0);
+.section {
+    -fx-background-color: #FCFFE7;
+    -fx-background-radius: 10px;
+    -fx-padding: 10px;
+}
+
+.title {
+    -fx-font-size: 24px;
     -fx-font-weight: bold;
-    -fx-text-fill: white;
+    -fx-text-fill: #0081C9;
+    -fx-text-alignment: center;
+}
+
+.subtitle {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #99A8B2;
+}
+
+.btnCurrency {
+    -fx-background-color: #008CBA;
+    -fx-min-width: 100px;
+    -fx-text-fill: #FCFFE7;
+    -fx-font-weight: bold;
+}
+
+.btnTemperature {
+    -fx-background-color: #4CAF50;
+    -fx-min-width: 100px;
+    -fx-text-fill: #FCFFE7;
+    -fx-font-weight: bold;
+}
+
+.btnCurrency:hover, .btnTemperature:hover{
+    -fx-text-fill: #ECE8DD;
+    -fx-opacity: 0.9;
+}
+
+.btnReturn {
+    -fx-background-color: #FCFFE7;
+    -fx-min-width: 30px;
+}
+
+.resultado {
+    -fx-font-size: 14px;
+    -fx-text-fill: #008CBA;
+    -fx-font-weight: bold;
 }
